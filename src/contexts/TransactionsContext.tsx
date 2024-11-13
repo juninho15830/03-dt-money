@@ -39,3 +39,4 @@ export function TransactionsProvider({ children }: TransactionsProviderProps) {
         </TransactionsContext.Provider>
     )
 }
+
