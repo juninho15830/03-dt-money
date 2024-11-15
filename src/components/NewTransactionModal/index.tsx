@@ -21,7 +21,10 @@ export function NewTransactionModal() {
         handleSubmit,
         formState: { isSubmitting }
     } = useForm<NewTransactionFormInputs>({
-        resolver: zodResolver(newTransactionFormSchema)
+        resolver: zodResolver(newTransactionFormSchema),
+        defaultValues: {
+            type: 'income'
+        }
     })
 
     async function handleCreateNewTransaction(data: NewTransactionFormInputs) {
