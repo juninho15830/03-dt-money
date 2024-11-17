@@ -45,12 +45,7 @@ export function TransactionsProvider({ children }: TransactionsProviderProps) {
     }
 
     async function createTransaction(data: CreateTransactionInput) {
-        const {
-            description,
-            price,
-            category,
-            type
-        } = data
+        const { description, price, category, type } = data
 
         const response = await api.post('transactions', {
             description,
@@ -60,7 +55,7 @@ export function TransactionsProvider({ children }: TransactionsProviderProps) {
             createdAt: new Date(),//campo não necessário com backend real
         })
 
-        setTransactions(state => [response.data,...state])
+        setTransactions(state => [response.data, ...state])
     }
 
     useEffect(() => {

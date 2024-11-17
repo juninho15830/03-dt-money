@@ -33,12 +33,7 @@ export function NewTransactionModal() {
     })
 
     async function handleCreateNewTransaction(data: NewTransactionFormInputs) {
-        const {
-            description,
-            price,
-            category,
-            type
-        } = data
+        const { description, price, category, type } = data
 
         await createTransaction({
             description,
