@@ -1,20 +1,44 @@
 {
-    "transactions": [
-        {
-            "id": 1,
-            "description": "Desenvolvimento de site",
-            "type": "income",
-            "category": "Venda",
-            "price": 12000,
-            "createdAt": "2024-11-10T12:03:35.747Z"
-        },
-        {
-            "id": 2,
-            "description": "Contas da casa",
-            "type": "outcome",
-            "category": "Casa",
-            "price": 4000,
-            "createdAt": "2024-11-10T12:16:48.081Z"
-        }
-    ]
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 12000,
+      "createdAt": "2024-11-10T12:03:35.747Z"
+    },
+    {
+      "id": 2,
+      "description": "Contas da casa",
+      "type": "outcome",
+      "category": "Casa",
+      "price": 4000,
+      "createdAt": "2024-11-10T12:16:48.081Z"
+    },
+    {
+      "description": "Serviços caminhão",
+      "price": 1750,
+      "category": "Serviço",
+      "type": "income",
+      "createdAt": "2024-11-17T12:48:52.581Z",
+      "id": 3
+    },
+    {
+      "description": "Copra PS5",
+      "price": 2000,
+      "category": "Laser",
+      "type": "outcome",
+      "createdAt": "2024-11-17T12:57:48.478Z",
+      "id": 4
+    },
+    {
+      "description": "Lanches",
+      "price": 110,
+      "category": "Refeição",
+      "type": "outcome",
+      "createdAt": "2024-11-17T13:29:16.383Z",
+      "id": 5
+    }
+  ]
 }
